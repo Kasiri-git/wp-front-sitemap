@@ -4,7 +4,7 @@ ZIPファイルをダウンロードして、そのままWordPressにインス�
 [allpost_list]
 ```  
 投稿のクエリ
-```
+```PHP
     // 投稿のクエリを作成
     $args = array(
         'post_type' => 'post', // 投稿タイプを指定
@@ -12,7 +12,7 @@ ZIPファイルをダウンロードして、そのままWordPressにインス�
     );
 ```
 出力されるコード
-```
+```PHP
     if ( $posts_query->have_posts() ) {
         $output = '<ul class="wp-front-sitemap-posts-list">';
         while ( $posts_query->have_posts() ) {
