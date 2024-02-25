@@ -4,6 +4,7 @@ Plugin Name: WP Front Sitemap
 Description: ショートコードで投稿記事一覧を表示させるシンプルなプラグイン
 Version: 1.0.0
 Author: Kasiri
+Author URI: https://kasiri.icu
 */
 
 // メニューリンクを追加
